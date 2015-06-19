@@ -1,7 +1,13 @@
+winH = window.innerHeight;
+winW = window.innerWidth;
+
+var starButtonX = (500 / 2) - 100;
+var starButtonY = winH - 150;
+
 var menuState = {
     create: function() {
         // Start game on space bar press
-        var starte = this.game.add.button(game.world.centerX, game.world.centerY,'starte', this.start,this);
+        var starte = this.game.add.button(starButtonX, game.world.centerY,'starte', this.start,this);
 
         // styles and centered positions for labels
         var style = { font: "28px Fugaz One", fill: "#FFF" };

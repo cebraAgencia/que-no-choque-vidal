@@ -5,7 +5,8 @@
   src: local('Fugaz One'), local('FugazOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/fugazone/v4/foh--NswBHNPbRHy7yEyyLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
 }
 body{
-	padding-top: 40px;
+	padding: 0px;
+	margin: 0px;
 	background-color: #FF0010;
 	background-image: url('../img/bg.png');
 	background-size: 33%;

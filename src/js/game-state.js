@@ -1,10 +1,13 @@
+winH = window.innerHeight;
+carPos = winH - 100;
+
 var gameState = {
 
     create: function() {
         // tile sprite first so element display on top
-        roadSprite = game.add.tileSprite(0, 0, 512, 500, 'road');
+        roadSprite = game.add.tileSprite(0, 0, 512, winH, 'road');
 
-        cart = game.add.sprite(250, 380, 'cart');
+        cart = game.add.sprite(250, carPos, 'cart');
         cart.animations.add('go');
         cart.animations.play('go', 20, true);
         cart.anchor.setTo(0.5, 0.5);

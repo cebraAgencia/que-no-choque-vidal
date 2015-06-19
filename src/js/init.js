@@ -1,5 +1,7 @@
+winH = window.innerHeight;
+
 // Initialize Phaser
-var game = new Phaser.Game(500, 500, Phaser.AUTO, 'game-div');
+var game = new Phaser.Game(500, winH, Phaser.AUTO, 'game-div');
 
 // Game variables
 var cart,
