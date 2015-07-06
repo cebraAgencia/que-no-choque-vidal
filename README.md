@@ -1,9 +1,9 @@
-pushcart-racer
+Que NO Choque Vidal
 ==============
 
-Simple HTML5 game built with Phaser.
+Juego simple Canvas HTML5 con Phaser Framework.
 
-The game can be played at [cstyow.github.io/pushcart-racer][link]
+Puedes jugar en: [http://www.quenochoquevidal.cl][link]
 
 
-[link]: http://cstyow.github.io/pushcart-racer
+[link]: http://www.quenochoquevidal.cl
